@@ -1,4 +1,3 @@
-
 {
   "name": "tp4usach",
   "version": "1.0.0",
@@ -13,5 +12,8 @@
     "si"
   ],
   "author": "Dekel Usach",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "country-to-currency": "^2.0.2"
+  }
 }

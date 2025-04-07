@@ -29,6 +29,7 @@
 //     const textoAnterior = fs.readFileSync(tituloEntrada);
 
 //     fs.writeFile(salida, textoAnterior, () => {
+    
 //         console.log("archivo creado correctamente")
 //          });       
 // }
@@ -36,6 +37,13 @@
 // copiar('texto.txt', 'nuevoArchivo.txt')
 
 
-// 5
+// 5/6
+// import parsearUrl from "./modulos/parsearUrl.js";
+
+// const objeto1 = parsearUrl("http://www.ort.edu.ar:8080/alumnos/index.htm?curso=2022&mes=mayo");
+// console.log(objeto1);
 
 
+import paisMoneda from "./modulos/paisMoneda.js"
+
+console.log(paisMoneda('US'))
